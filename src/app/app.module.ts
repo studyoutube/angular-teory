@@ -4,9 +4,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponent } from './components/first/first.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
+import { DirectivesComponent } from './components/directives/directives.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponent, ParentDataComponent],
+  declarations: [AppComponent, FirstComponent, ParentDataComponent, DirectivesComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
