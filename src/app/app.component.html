@@ -1,6 +1,10 @@
 <div class="container">
-    <app-first></app-first>
-    <app-parent-data [name]="userName" [userData]="userData"></app-parent-data>
+    <div class="row col">
+        <h1>A Aulas estão em ordem decrescente</h1>
+    </div>
+    <app-if-render></app-if-render>
     <app-directives></app-directives>
+    <app-parent-data [name]="userName" [userData]="userData"></app-parent-data>
+    <app-first></app-first>
     <router-outlet> </router-outlet>
 </div>

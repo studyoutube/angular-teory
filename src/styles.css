@@ -30,6 +30,7 @@ body {
     grid-template-columns: 1fr;
     padding: 1%;
     margin: 1%;
+    border-bottom: 1px solid red;
 }
 
 h1,
