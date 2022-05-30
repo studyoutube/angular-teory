@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col">
+        <h1>Emitter</h1>
+        <h2>O número é: {{ myNumber }}</h2>
+        <app-change-number (changeNumber)="onChangeNumber()"></app-change-number>
+        <div class="obs">
+            <p>
+                Enviará um evento do componente filho para o pai. <br /> O evento que enviará dados para o componente pai para o filho é o Input()
+            </p>
+        </div>
+    </div>
+</div>

@@ -47,3 +47,13 @@ p {
     width: 100%;
     line-height: 1.6;
 }
+
+.obs {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: red;
+    text-shadow: 1px 2px 1px white;
+    background-color: rgba(0, 0, 0, 0.644);
+    margin: 10px 0 10px 0;
+}
