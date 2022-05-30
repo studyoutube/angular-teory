@@ -7,7 +7,11 @@
                 Nome: {{animal.name}} - <span class="tipo">
                   Tipo: {{animal.type}}
                 </span>
+                <button (click)="showAge(animal)">Show Age</button>
             </li>
         </ul>
+        <h3>
+            {{animalsDetails}}
+        </h3>
     </div>
 </div>
