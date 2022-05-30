@@ -1,0 +1,15 @@
+<div class='row'>
+    <div class='col'>
+        <h1>Two Way Data Binding</h1>
+        <form>
+            <label for='nome'>
+            Nome
+            <input type='text' placeholder="Nome" id="nome" [(ngModel)]="name" name="name" />
+          </label>
+            <button type='submit' class="btn btn-primary">Enviar</button>
+        </form>
+        <p *ngIf="name !== ''">
+            O nome é {{name}}.
+        </p>
+    </div>
+</div>
