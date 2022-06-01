@@ -41,6 +41,21 @@ h5,
 h6 {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 2%;
+    text-decoration: underline;
+    color: rgb(195, 0, 47);
+    transition: ease 2s;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 117, 202);
 }
 
 p {
@@ -65,9 +80,11 @@ ul {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    background-color: red;
 }
 
 li {
+    width: 800px;
     color: aqua;
     background-color: rgba(0, 0, 0, 0.986);
     margin-top: 5px;
@@ -114,9 +131,24 @@ input {
     margin-top: 10px;
 }
 
+.btn2 {
+    width: 25%;
+    border: 2px solid rgb(40, 118, 203);
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px 2px 5px 2px;
+    margin: 10px 20px 10px 20px;
+}
+
 .btn-primary {
     color: green;
     font-size: 16px;
+}
+
+.btn-secondary {
+    color: rgb(40, 118, 203);
+    font-size: 1.2vw;
 }
 
 .btn.btn-primary:hover {
@@ -125,4 +157,12 @@ input {
     background-color: green;
     color: white;
     padding: 10px;
+}
+
+.btn2.btn-secondary:hover {
+    border: 2px solid rgb(40, 118, 203);
+    border-radius: 25px;
+    background-color: rgb(40, 118, 203);
+    color: white;
+    padding: 5px;
 }
