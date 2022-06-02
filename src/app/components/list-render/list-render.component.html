@@ -1,19 +1,22 @@
 <div class="row">
     <div class="col">
-        <h1>Renderizão de Listas</h1>
+        <h1>Renderização de Listas</h1>
         <h2>Services</h2>
         <h3>Animais:</h3>
         <ul>
             <li *ngFor="let animal of animals">
-                Nome: {{animal.name}} - <span class="tipo">
-                  Tipo: {{animal.type}}
-                </span>
-                <button (click)="showAge(animal)" class="btn2 btn-secondary">Show Age</button>
-                <button (click)="removeAnimal(animal)" class="btn2 btn-secondary">Excluir</button>
+                Nome: {{ animal.name }} -
+                <span class="tipo"> Tipo: {{ animal.type }} </span>
+                <button (click)="showAge(animal)" class="btn2 btn-secondary">
+          Show Age
+        </button>
+                <button (click)="removeAnimal(animal)" class="btn2 btn-secondary">
+          Excluir
+        </button>
             </li>
         </ul>
         <h3>
-            {{animalsDetails}}
+            {{ animalsDetails }}
         </h3>
     </div>
 </div>
