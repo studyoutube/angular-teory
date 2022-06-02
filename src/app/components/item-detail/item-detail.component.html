@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col" *ngIf="animal">
+        <h1>Descrição de animal</h1>
+
+        <div class="paragrafo">
+            <p>ID: {{ animal.id }}</p>
+            <p>
+                {{ animal.name }}
+            </p>
+            <p>Tipo: {{ animal.type }}</p>
+        </div>
+        <a routerLink="/list" class="back">Voltar</a>
+    </div>
+</div>

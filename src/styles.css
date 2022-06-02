@@ -21,6 +21,8 @@ p {
 
 body {
     margin-bottom: 100px;
+    background-color: rgb(2, 2, 61);
+    color: rgb(255, 255, 255);
 }
 
 a {
@@ -218,4 +220,33 @@ input {
 .menu li a {
     display: block;
     padding: 11px;
+}
+
+.paragrafo {
+    line-height: 1.6rem;
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    background-color: rgba(0, 0, 255, 0.144);
+    padding: 1%;
+    margin: 5%;
+    border: 1px solid rgba(0, 0, 255, 0.144);
+    border-radius: 25px;
+}
+
+.back {
+    width: 80px;
+    display: block;
+    padding: 10px;
+    margin: 5px 10px;
+    border: 1px solid rgb(162, 30, 31);
+    border-radius: 25px;
+    background-color: rgb(163, 31, 31);
+    text-align: center;
+}
+
+.back:hover {
+    color: white;
+    background: red;
 }
