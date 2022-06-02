@@ -10,8 +10,11 @@ export class ListService {
   private apiUrl = 'http://localhost:3000/animals';
   constructor(private http: HttpClient) {}
 
-  remove(animals: Animal[], animal: Animal) {
-    return animals.filter((a) => animal.name !== a.name);
+  // remove(animals: Animal[], animal: Animal) {
+  //   return animals.filter((a) => animal.name !== a.name);
+  // }
+  remove(id: number) {
+    return this.http.delete<Animal>(`${this.apiUrl}/${id}`);
   }
   getAll(): Observable<Animal[]> {
     return this.http.get<Animal[]>(this.apiUrl);
