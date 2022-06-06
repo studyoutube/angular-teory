@@ -1,4 +1,11 @@
 # Teoria
+# Angular Teory
+
+A partir desta **[playlist](https://www.youtube.com/watch?v=GUELa7RfW70&list=PLnDvRpP8Bnex2GQEN0768_AxZg_RaIGmw&index=21&ab_channel=MatheusBattisti-HoradeCodar)** começa a criar o projeto frontend :heavy_plus_sign: backend :runner: .
+
+A playlist do **[backend](https://www.youtube.com/watch?v=y8XfJJYhXPE&ab_channel=MatheusBattisti-HoradeCodar)**.
+
+Agradecimentos ao canal do YouTube **[Matheus Battisti](https://www.youtube.com/c/MatheusBattisti)**
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
@@ -25,4 +32,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# angular-teory
+
